@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del alumno</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<!--   <script src="js/acciones.js"></script>   -->
+<script src="phonegap.js"></script>
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="b">
+    <h1>Dia Mundial de la Bicicleta</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Banner conmemorativo</h1>
+      <div>
+       <p> Día de la bicicleta: </p>
+       <br>
+      </div>
+      <div>
+         <img src="imagenes/fotoPerfil.jpg" width="30%" height="100%">
+       </div>
+     </div>
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+          <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia de la Bicicleta</h2> 
+          </a>
+        </li>     
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Utilizacion como medio de transporte</h2>  
+
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> Tipos de Bicicletas </h2>  
+
+          </a>
+       </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>5 Marcas importantes de Bicicletas </h2>  
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Por que se celebra el dia Mundia de la Bicicleta</h2>  
+          </a>
+       </li>
+       </ul>
+    </div>
+    <div  data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+      </div>
+      <div>
+         <h4> Aplicacion Tres </h4>
+         <h4>Adan Calixto Ahedo </h4>
+      </div>
+     </div>
+    </div>
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> Historia de la bicicleta </h1>
+     </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2>¿Cuándo se inventó la bicicleta?</h2>
+                      <img src="imagenes/Bicicleta1.jpg" hspace="10" vspace="10" width="50%" height="50%" style="float: left;" />           
+           <h3 align="justify">Parece que hay un boom del uso de las bicicletas como medio de transporte en las grandes ciudades. Incluso en algunas poco preparadas para este medio de transporte ecológico, como Madrid. Los ciudadanos reivindican una forma de movilidad más sostenible y que no contamine. Pero la bicicleta tiene una larga historia, que ha pasado por diferentes etapas, en algunas de las cuales era un objeto imprescindible para el desarrollo de las comunidades.La bici es un aparato sencillo: básicamente, se compone de dos ruedas dispuestas en línea y un sistema de pedales para que la personas pueda transmitir la fuerza de propulsión. Además, un manillar para dirigir la bicicleta y un sillín para sentarse. El primer modelo de transmisión a través de una cadena (la bicicleta moderna) fue inventado en 1885 pero, ¿cuándo se inventó la bicicleta?, ¿cuándo nacieron los primeros intentos? a continuación te lo explicamos.</h3>
+<br>
+<img src="imagenes/Bicicleta1.jpg" hspace="10" vspace="10" width="50%" height="50%" style="float: left;" />   
+          
+<h2>El nacimiento de la bicicleta moderna</h2>
+<h3 align=left>Por fin, en 1885, aparece la Safety Bicycle (bicicleta de seguridad), inventada por John Kemp Starley. Tenía frenos, permitía una postura más natural y el ciclista estaba más cerca del suelo, por lo que las caídas no eran tan peligrosas. Después, se añadieron las ruedas con cámara de aire y la cadena de transmisión conectada a la rueda de atrás. Es la bicicleta moderna.
+
+La bicicleta servía tanto para el campo como para la ciudad. Era un medio de transporte barato y accesible a cualquier persona. Además se puede arreglar con unos pocos conocimientos de mecánica. En Europa del norte, nunca ha dejado de utilizarse: países como Suiza, Alemania, los Países Bajos, algunas zonas de Polonia y los países escandinavos, y a pesar del frío y las malas condiciones meteorológicas, han sido siempre países defensores de este medio de transporte. También en China y la India ha sido durante años el principal medio de transporte.</h3>
+</div>
+         </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+           <h4> Aplicacion Tres, ACA </h4>
+           </div>
+         </div>
+          
+             
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Utilizacion como medio de transporte</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2>Cinco ventajas de utilizar la bicicleta como medio de transporte</h2>
+<h3 align=left><pre>1. Ventajas para la salud.
+El uso diario de la bicicleta es una ayuda para mejorar tu salud física y emocional:
+– Reduce los niveles de colesterol en la sangre.
+– Minimiza los niveles de estrés y mejora el estado de ánimo.
+– Es una excelente forma de combatir la obesidad.
+– Ayuda a mejorar la coordinación motriz.
+– Mejora el sistema respiratorio y cardiaco.
+– Reduce el riesgo de sufrir infarto o problemas cerebrovasculares.
+– Tonifica los músculos.
+
+2. Ventajas para el Medio Ambiente.
+La bici es un medio de transporte limpio. Todos debemos preocuparnos por la conservación del medio ambiente y esta es una opción de movilidad no contaminante perfecta:
+– La bici no produce gases tóxicos.
+– Ocupa menos espacio: 16 bicicletas ocupan lo mismo que un vehículo.
+3. Mejora la economía Familiar.
+La bicicleta es un medio de transporte muy accesible para todos.
+Su inversión no es significativa y representa un ahorro a medio y largo plazo:
+– Su coste de inversión es mucho menor que el de cualquier transporte privado.
+– Su mantenimiento es muy económico: el 5 por ciento de lo que cuesta el mantenimiento de un coche.
+– No requiere gastos en combustible, peajes, seguros o impuestos.
+– Sus repuestos son económicos y fáciles de conseguir.
+
+<img src="imagenes/Bicicleta.png" width="46" height="46">
+
+4. Ventajas en ahorro de tiempo.
+Moviéndonos en bicicleta llegamos antes a nuestro destino, puesto que evitamos los atascos en hora punta.
+
+5. La bici te hace feliz.
+Está demostrado que el uso continuo de la bicicleta como medio de transporte aumenta la felicidad en los usuarios. Esto es principalmente gracias a que no hay estrés por los tiempos de desplazamiento, mejora la salud, mejora la economía y permite conocer más la ciudad.</pre></h3>
+           </div>
+          
+         </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+           <h4> Aplicacion Tres, ACA </h4>
+           </div>
+         </div>
+          
+          
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> DOMICILIO </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2> 19 Poniente #313 Guadalupe Victoria </h2></div>
+         </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+           <h4> Aplicacion Tres, ACA </h4>
+           </div>
+         </div>
+          
+          
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> DEPORTE FAVORITO  </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2> Futbol </h2></div>
+            <img src="imagenes/Deporte.jpg" width="80%" height="50%">
+
+     </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+           <h4> Aplicacion Tres, ACA </h4>
+           </div>
+         </div>
+ 
+          
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> GUSTOS E INTERESES </h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2> Dibujar </h2></div>
+           <img src="imagenes/Dibujo1.jpg" width="100%" height="50%">
+           <img src="imagenes/Dibujo2.jpg" width="100%" height="50%">
+         </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+           <h4> Aplicacion Tres, ACA </h4>
+           </div>
+         </div>
+</body>
+</html>
+
+
+
+
+
